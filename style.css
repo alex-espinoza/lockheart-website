@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Basic';
+  src: url('basictitlefont.ttf');
+}
+
+html {
+	background-color: #efaf86;
+}
+
+.front-page-top {
+	height: 77px;
+}
+
+.front-page-header {
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	color: #000;
+	font-size: 14px;
+	margin-bottom: 10px;
+	margin-top: 50px;
+	font-style: italic;
+	text-decoration: line-through;
+}
+
+.front-page-image {
+	text-align: center;
+}
+
+.front-page-footer {
+	font-family: 'Basic', sans-serif;
+	text-align: center;
+	color: #000;
+	font-size: 42px;
+	letter-spacing: 0.3em;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+/*.container .four.columns.clock {
+	height: 86px;
+	width: 220px;
+}
+
+.container .eight.columns {
+	height: 50px;
+	width: 460px;
+}*/
