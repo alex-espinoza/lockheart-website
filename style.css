@@ -36,6 +36,35 @@ html {
 	margin-top: 10px;
 }
 
+.main-site-container {
+	margin-top: 50px;
+}
+
+.sidebar {
+	border-right: 1px solid #000;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+
+.sidebar ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	font-weight: bold;
+}
+
+.sidebar ul li {
+	padding-bottom: 10px;
+}
+
+h3.logo {
+	margin: 0px 0px 20px 0px;
+	font-weight: bold;
+	font-family: 'Basic', sans-serif;
+	font-size: 30px;
+	color: #000;
+}
+
 /*.container .four.columns.clock {
 	height: 86px;
 	width: 220px;
