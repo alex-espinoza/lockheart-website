@@ -121,3 +121,7 @@ h3.artist-name {
 .artist-container ul li a:hover {
 	text-decoration: underline;
 }
+
+.second-artist-row {
+	margin-top: 25px;
+}
