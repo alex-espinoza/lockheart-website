@@ -1,5 +1,16 @@
-$(function() {
+var frontPageHeader = document.getElementsByClassName("front-page-header")[0];
+var headerSpans = frontPageHeader.getElementsByTagName("span");
 
-	$('.front-page-header').hide().delay(1500).fadeIn(3000);
+function createSpanDisplayTimeout(startTime, element) {
+  setTimeout(function() {
+    headerSpans[element].className += "display";
+  }, startTime);
+}
 
-});
+for (var i = 0; i < headerSpans.length; i++) {
+  var initialDelayTime = 1000;
+  var offsetTime = i * 2000;
+  var startTime = initialDelayTime + offsetTime;
+
+  createSpanDisplayTimeout(startTime, i);
+}

@@ -4,124 +4,136 @@
 }
 
 html {
-	background-color: #efaf86;
+  background-color: #efaf86;
 }
 
 .front-page-top {
-	height: 77px;
+  height: 77px;
 }
 
 .front-page-header {
-	text-align: center;
-	font-family: Verdana, sans-serif;
-	color: #000;
-	font-size: 14px;
-	margin-bottom: 10px;
-	margin-top: 50px;
-	font-style: italic;
-	text-decoration: line-through;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  color: #000;
+  font-size: 14px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  font-style: italic;
+}
+
+.front-page-header span {
+  opacity: 0;
+}
+
+.front-page-header span.display {
+  transition: all 2s ease-in;
+  -webkit-transition: all 2s ease-in;
+  -moz-transition: all 2s ease-in;
+  -o-transition: all 2s ease-in;
+  -ms-transition: all 2s ease-in;
+  opacity: 1;
 }
 
 .front-page-image {
-	text-align: center;
+  text-align: center;
 }
 
 .front-page-footer {
-	font-family: 'Basic', sans-serif;
-	text-align: center;
-	color: #000;
-	font-size: 42px;
-	letter-spacing: 0.3em;
-	font-weight: bold;
-	margin-top: 10px;
+  font-family: 'Basic', sans-serif;
+  text-align: center;
+  color: #000;
+  font-size: 42px;
+  letter-spacing: 0.3em;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 .main-site-container {
-	margin-top: 50px;
+  margin-top: 50px;
 }
 
 .sidebar {
-	border-right: 1px solid #000;
-	font-family: Arial, sans-serif;
-	font-size: 16px;
+  border-right: 1px solid #000;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
 }
 
 .sidebar ul {
-	list-style: none;
-	padding: 0px;
-	margin: 0px;
-	font-weight: bold;
-	text-align: right;
-	padding-right: 20px;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 20px;
 }
 
 .sidebar ul li {
-	padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .sidebar ul li a {
-	color: inherit;
-	text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 .sidebar ul li a:hover {
-	background: #000;
-	color: #ddd;
+  background: #000;
+  color: #ddd;
 }
 
 .about-image-container {
-	margin: 0px;
+  margin: 0px;
 }
 
 .content-container {
-	font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 h3.logo {
-	margin: 0px 0px 20px 0px;
-	font-weight: bold;
-	font-family: 'Basic', sans-serif;
-	font-size: 30px;
-	color: #000;
-	border-bottom: 1px solid #000;
+  margin: 0px 0px 20px 0px;
+  font-weight: bold;
+  font-family: 'Basic', sans-serif;
+  font-size: 30px;
+  color: #000;
+  border-bottom: 1px solid #000;
 }
 
 h3.logo a {
-	text-decoration: none;
-	color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 h3.artist-name {
-	text-align: center;
-	font-weight: normal;
-	margin-bottom: 0px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 0px;
 }
 
 .artist-container {
-	font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 .artist-container ul {
-	list-style: none;
-	padding: 0px;
-	margin: 0px;
-	text-align: center;
-	font-size: 14px;
-	margin-top: 10px;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
 }
 
 .artist-container ul li {
-	display: inline;
+  display: inline;
 }
 
 .artist-container ul li a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .artist-container ul li a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 .second-artist-row {
-	margin-top: 25px;
+  margin-top: 25px;
 }
